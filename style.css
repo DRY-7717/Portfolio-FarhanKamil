@@ -1,0 +1,117 @@
+:root {
+  /* color */
+  --abuMuda: #2b2a2f;
+  --abuTua: #27262b;
+  --abuTerang: #b3b3b3;
+  --putih: #ffffff;
+  --oren: #fe7e11;
+}
+
+body {
+  min-height: 5000px;
+  background-color: var(--abuTua);
+}
+
+/* navbar */
+.navbar {
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* jumbotron */
+.jumbotron {
+  height: 670px;
+  background-color: var(--abuMuda);
+}
+
+.jumbotron .heading {
+  font-size: 25px;
+  margin-top: 50px;
+}
+
+.jumbotron h1 {
+  font-size: 35px;
+  margin-top: -15px;
+}
+
+.jumbotron p {
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.jumbotron img {
+  margin-top: 50px;
+  width: 100%;
+}
+
+.jumbotron .hire {
+  margin-top: 20px;
+  padding: 8px 30px;
+  border-radius: 30px;
+  font-weight: bold;
+}
+
+/* about */
+.about {
+  margin-top: 100px;
+  padding-top: 50px;
+  background-color: var(--abuTua);
+  height: 700px;
+}
+
+.about .borderBawah {
+  width: 70px;
+  height: 3px;
+  background-color: #fe7e11;
+  margin: auto;
+}
+
+.about img {
+  width: 100%;
+  border-left: 4px solid var(--oren);
+  border-bottom: 4px solid var(--oren);
+  background-color: var(--abuMuda);
+}
+
+/* tablet */
+@media (min-width: 768px) {
+  /* jumbotron */
+  .jumbotron {
+    height: 387px;
+  }
+}
+
+/* desktop */
+@media (min-width: 992px) {
+  /* jumbotron */
+  .jumbotron {
+    height: 600px;
+  }
+
+  .jumbotron .heading {
+    font-size: 30px;
+  }
+
+  .jumbotron h1 {
+    font-size: 50px;
+    margin-top: -15px;
+  }
+
+  .jumbotron p {
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+  .jumbotron .hire {
+    margin-top: 30px;
+    padding: 10px 35px;
+  }
+
+  .jumbotron img {
+    width: 550px;
+  }
+
+  /* about */
+  .about img {
+    width: 300px;
+  }
+}
